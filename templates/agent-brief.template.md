@@ -2,9 +2,8 @@
 
 <!--
 Template for briefing parallel/sub-agents on a large multi-agent job (a port, a migration, a wave of
-work packages). Distilled from shroud/.claude/android-ui/BRIEF.md — see originals/ for the full
-real-world version, and originals/shroud/.claude/workflows/wave.js for an orchestration script that
-uses the same ideas (per-package worktrees, merge, integrate, accept, adversarial review, fix).
+work packages). Pairs well with an orchestration that runs each package in its own worktree, then
+merges, integrates, runs acceptance, does an adversarial review and applies fixes.
 -->
 
 You are a {{ROLE}} (e.g. "UI engineer"). You implement exactly **one** work item — your prompt names

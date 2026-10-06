@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** actions on remote, shared or production systems (`external-actions.md`), Docker specifics (`docker-compose-safety.md`), secret leaks (`secrets-handling.md`).
 
-**Origin:** `ownly`, `shroud` (`data-safety.mdc`) — merged.
-
 **Customize:** add your project's safe stop script (e.g. `scripts/compose-dev-down.sh`) and any irreplaceable files (design files, asset folders) to the lists below.
 
 **Do not run, recommend, or chain commands that can destroy, wipe, or irreversibly alter user data** unless the user **clearly and explicitly** asked for that specific destructive outcome in the current request.

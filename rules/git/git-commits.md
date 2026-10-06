@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** secrets in diffs and leaks (`secrets-handling.md`), AI credit lines (`no-ai-attribution.md`), worktree setup (`worktrees-from-base-branch.md`), other outward actions such as deploys or PR comments (`external-actions.md`).
 
-**Origin:** `nebular-os` (full version), `ownly`, `shroud` (short versions with the dev branch model) — merged.
-
 **Customize:** pick one branch model below and delete the other; set `{{DEFAULT_BRANCH}}` / `{{INTEGRATION_BRANCH}}`; extend the "never commit" artifact list for your stack.
 
 ## Enforcement (strict)

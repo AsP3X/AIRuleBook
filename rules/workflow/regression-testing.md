@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** honest test practice — no skipping, weakening or gaming (`test-integrity.md`), debugging failures (`root-cause-debugging.md`).
 
-**Origin:** `ownly`, `shroud` (`regression-testing.mdc`) — merged; the backtesting section comes from `shroud`.
-
 **Customize:** fill in the test inventory, verification matrix and manual smoke paths for your project. Delete the backtesting section if you have no versioned protocol or persisted data format.
 
 New features and refactors must **not break existing behavior**. Regression protection is part of the feature, not optional cleanup.

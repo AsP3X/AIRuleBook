@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** documenting new env vars (`env-config-sync.md`); server-side token/password storage design (`web-security-baseline.md`); E2E key custody (`security-e2e-crypto.md`).
 
-**Origin:** new (2026-10-05); consolidates the secret bullets scattered across `git-commits`, `api-error-envelope` and `security-audit-scripts`.
-
 ## Never write a secret into
 
 - **Source code or config committed to git** — no hardcoded keys, even "temporary" or "dev only".

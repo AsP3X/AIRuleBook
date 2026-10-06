@@ -10,8 +10,6 @@ alwaysApply: false
 
 **Out of scope:** accessibility labels beyond translation (`web-accessibility.md`).
 
-**Origin:** `pzserver` (`CLAUDE.md` → Internationalization).
-
 **Customize:** `{{T_HOOK}}` (e.g. `useTranslation()` from `web/ui/src/i18n/use-translation.ts`), `{{LOCALE_FILES}}` (e.g. `en.json`, `de.json`), placeholder syntax.
 
 - **Never hardcode user-facing strings** in components — always use `t()` from `{{T_HOOK}}`. This includes button labels, headings, placeholders, empty states, toasts, `aria-label`s and error messages shown to users.

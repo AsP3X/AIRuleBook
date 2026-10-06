@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** the content of the routed rules themselves.
 
-**Origin:** `ownly`, `nebular-os`, `shroud` (`agent.mdc`) — merged.
-
 **Customize:** replace the project-specific bullets in the last section (or delete it).
 
 ## Binding rules

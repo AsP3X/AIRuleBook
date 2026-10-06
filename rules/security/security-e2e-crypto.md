@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** baseline web security for every backend — authz, input validation, sessions (`web-security-baseline.md`), secrets in code and output (`secrets-handling.md`).
 
-**Origin:** `shroud` (`security-crypto.mdc`), generalized.
-
 These invariants are **non-negotiable**. A change that violates one is wrong even if it "works".
 
 ## Plaintext boundary

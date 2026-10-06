@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** staying inside the task (`scope-discipline.md`), adding packages (`dependency-safety.md`), language-specific rules (`languages/`).
 
-**Origin:** `pzserver` (`CLAUDE.md` → General), `shroud`/`nebular-os` (`project-layout.mdc`), `pzserver` design constraints — merged and generalized.
-
 ## Fit in
 
 - **Follow existing conventions.** Before writing a new file, read its siblings and match their structure, naming, error handling and comment style.

@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** general data-loss rules (`data-safety.md`), pushing images or deploying (`external-actions.md`), env var documentation (`env-config-sync.md`).
 
-**Origin:** `ownly` (`docker-compose-safety.mdc`).
-
 **Customize:** fill in the compose file table, the safe stop script, and the confirm-destroy env var.
 
 ## Mandatory for agents

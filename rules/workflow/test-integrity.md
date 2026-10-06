@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** *what* to test for a given change (`regression-testing.md`), what evidence to report (`definition-of-done.md`), how to find the cause of a failure (`root-cause-debugging.md`).
 
-**Origin:** new (2026-10-05); generalizes the "tests silently pass as skipped" warning from `shroud/.claude/workflows/wave.js`.
-
 A green check is only worth something if it would have gone red on a broken change. Making a check pass without making the code correct is **worse than reporting the failure**.
 
 ## Never do this to make a check pass

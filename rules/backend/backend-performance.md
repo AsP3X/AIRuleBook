@@ -9,8 +9,6 @@ alwaysApply: false
 
 **Out of scope:** blocking the async runtime (`rust-quality.md`, `typescript-quality.md`), React rendering (`react-quality.md`), migrations mechanics (`sql-migrations-immutable.md`), rate limiting as a security control (`web-security-baseline.md`).
 
-**Origin:** new (2026-10-05).
-
 These are defaults that prevent the common production slowdowns. Don't micro-optimize beyond them without a measurement.
 
 ## Database access

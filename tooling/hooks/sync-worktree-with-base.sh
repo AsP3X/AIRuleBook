@@ -4,8 +4,6 @@
 # Does nothing in the main checkout or in other repositories. Whatever it
 # prints on stdout reaches the agent as session context.
 #
-# Generalized from shroud/.claude/hooks/sync-worktree-with-dev.sh.
-#
 # Install: copy to <repo>/.claude/hooks/ in the MAIN checkout and register it
 # in ~/.claude/settings.json (user level), pointing at that file:
 #   "hooks": { "SessionStart": [ { "hooks": [ { "type": "command",

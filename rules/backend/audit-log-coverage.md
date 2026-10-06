@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** access control itself (`web-security-baseline.md`), application/debug logging (`api-error-envelope.md`).
 
-**Origin:** `ownly` (`audit-log-coverage.mdc`); `pzserver` ("every admin API action writes to `audit_logs`").
-
 **Customize:** `{{AUDIT_FN}}` (e.g. `audit::write_audit` in `backend/src/audit.rs`), `{{AUDIT_TABLE}}` (e.g. `audit_logs`).
 
 Semantic user and admin actions must appear in `{{AUDIT_TABLE}}`. Raw HTTP/access logs are **not** a substitute.

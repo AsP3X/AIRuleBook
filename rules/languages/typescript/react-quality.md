@@ -10,8 +10,6 @@ alwaysApply: false
 
 **Out of scope:** TypeScript language rules (`typescript-quality.md`), UI copy (`i18n-no-hardcoded-strings.md`), accessibility (`web-accessibility.md`), visual design (`design-system`, `design-sync.md`).
 
-**Origin:** new (2026-10-05) for ownly `frontend/`, pzserver `web/ui` and shroud `web/`.
-
 ## Components
 
 - Function components only. Components are **pure**: same props + state → same output; no side effects during render (no fetches, subscriptions, mutations, `Math.random()`/`Date.now()` in render output).

@@ -10,8 +10,6 @@ alwaysApply: false
 
 **Out of scope:** security probe script conventions (`security-audit-scripts.md`), packages (`dependency-safety.md`), cross-platform script behavior (`cross-platform-scripts.md`).
 
-**Origin:** new (2026-10-05) for Python tooling such as ownly's `scripts/security-audit/`.
-
 ## Version and environment
 
 - Target the project's Python version ({{PYTHON_VERSION}}, e.g. 3.11+); don't use newer syntax than that.

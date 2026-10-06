@@ -10,8 +10,6 @@ alwaysApply: false
 
 **Out of scope:** native app accessibility (`swift-quality.md`, `android-quality.md`), visual tokens and recipes (`design-system`), translated strings (`i18n-no-hardcoded-strings.md`).
 
-**Origin:** new (2026-10-05); the web counterpart of the hit-target and contrast gate in shroud's `design-system.mdc`.
-
 ## Semantics first
 
 - Use the right native element: `<button>` for actions, `<a href>` for navigation, `<input>`/`<select>`/`<textarea>` for input, `<table>` for tabular data, headings `<h1>`–`<h6>` in order, landmarks (`<header>`, `<nav>`, `<main>`, `<footer>`). Never a clickable `<div>`/`<span>`.

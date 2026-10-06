@@ -10,8 +10,6 @@ alwaysApply: false
 
 **Out of scope:** Android platform and Compose rules (`android-quality.md`), deprecated APIs (`no-deprecated-apis.md`), packages (`dependency-safety.md`).
 
-**Origin:** new (2026-10-05); language-level rules distilled from the contract rules in `shroud/.claude/android-ui/BRIEF.md`.
-
 ## Null safety
 
 - **No `!!`** outside tests. Use `?.`, `?:`, `let`, `requireNotNull(x) { "reason" }` for real invariants, or early returns.

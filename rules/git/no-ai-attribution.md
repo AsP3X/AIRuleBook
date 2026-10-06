@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** commit message format (`git-commits.md`).
 
-**Origin:** `shroud` (`docs/agent-rules/no-ai-attribution.md`), `nebular-os` (`git-commits.mdc`) — merged.
-
 Commits and pull requests carry only the human author. No agent, model or tool is credited.
 
 - No `Co-Authored-By:` trailer for an AI assistant (for example `Co-Authored-By: Claude … <noreply@anthropic.com>`, `Co-authored-by: Cursor`, `cursoragent@cursor.com`) in a commit message. This includes amended, squashed, merge and rebased commits, and commit messages written by scripts and workflows in the repo.

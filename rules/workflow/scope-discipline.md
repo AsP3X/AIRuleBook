@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** *how* to change code well (`codebase-conventions.md`), adding packages (`dependency-safety.md`), what to test (`regression-testing.md`).
 
-**Origin:** new (2026-10-05) — the most common agent failure mode; not harvested from a project.
-
 The diff is the deliverable. Every line in it must be explainable by the task. A reviewer should be able to read the diff and see only the requested change.
 
 ## The task defines the scope

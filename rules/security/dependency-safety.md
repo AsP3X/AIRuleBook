@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** Linux-complete npm lockfiles for Docker (`npm-lockfile-linux-docker.md`); read-only submodules (`vendored-submodule-readonly.md`); deprecated APIs inside existing deps (`no-deprecated-apis.md`).
 
-**Origin:** new (2026-10-05); expands the "do not change dependencies without approval" line from pzserver's `CLAUDE.md`.
-
 ## Approval
 
 - **Ask before adding** a new dependency or doing a **major** upgrade. Say what it is for, why the standard library or an existing dependency is not enough, its size, and its license.

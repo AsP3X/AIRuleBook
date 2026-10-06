@@ -10,8 +10,6 @@ alwaysApply: false
 
 **Out of scope:** dead-code allows (`rust-no-dead-code-allow.md`), error body shape (`api-error-envelope.md`), crates (`dependency-safety.md`).
 
-**Origin:** `shroud` (`rust-quality.mdc`); the dead-code section merges `rust-no-dead-code-allow.md`.
-
 ## Error handling (no panics in production paths)
 
 - **No `unwrap()`, `expect()`, `panic!`, `unreachable!`, panicking indexing, or `unwrap_or_default()` that hides errors** in non-test code. Return `Result` and propagate with `?`.

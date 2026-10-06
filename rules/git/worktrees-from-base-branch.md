@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** when to commit, push or merge (`git-commits.md`).
 
-**Origin:** `shroud` (`docs/agent-rules/worktrees-from-dev.md`).
-
 **Customize:** `{{BASE}}` = the branch active work happens on (e.g. `dev`). Optional: install `tooling/hooks/sync-worktree-with-base.sh` as a Claude Code `SessionStart` hook.
 
 `{{BASE}}` is the working branch; the release branch can lag it by many commits. A worktree based on anything older than the current `{{BASE}}` edits stale code and conflicts on merge.

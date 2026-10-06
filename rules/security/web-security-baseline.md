@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** secrets in code/output (`secrets-handling.md`), error body shape and log redaction (`api-error-envelope.md`), audit trails (`audit-log-coverage.md`), E2E encryption (`security-e2e-crypto.md`), third-party packages (`dependency-safety.md`).
 
-**Origin:** new (2026-10-05); generalizes pzserver's security conventions (rate limiting, private health, internal-only RCON) and shroud's server rules into an OWASP Top 10–aligned baseline.
-
 ## Authentication
 
 - Passwords are hashed with **argon2id** (or bcrypt/scrypt with current parameters) — never plain, never fast hashes (MD5/SHA-*).

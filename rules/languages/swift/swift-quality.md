@@ -10,8 +10,6 @@ alwaysApply: false
 
 **Out of scope:** visual design (`design-system`, `design-sync.md`), key handling (`security-e2e-crypto.md`).
 
-**Origin:** `shroud` (`swift-quality.mdc`).
-
 ## Language & safety
 
 - **No force unwraps (`!`), force casts (`as!`) or `try!`** outside tests. Use `guard let`, `if let`, optional chaining and typed `throw`s.

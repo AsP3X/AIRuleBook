@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** documenting env vars and config validation (`env-config-sync.md`).
 
-**Origin:** `pzserver` (`AGENTS.md` → "The UI panel is the single point of truth").
-
 **Customize:** list the authoritative stores in the table.
 
 The {{AUTHORITY}} (e.g. the admin web panel) is the source of truth for how the system is configured. `.env`, installer defaults, stock config files and downloaded content are **bootstraps or caches** — never the authority once the {{AUTHORITY}} has written a value.

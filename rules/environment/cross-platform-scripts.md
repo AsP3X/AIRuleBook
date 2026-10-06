@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** Python script internals (`python-quality.md`), npm lockfiles for Docker (`npm-lockfile-linux-docker.md`), env var documentation (`env-config-sync.md`).
 
-**Origin:** new (2026-10-05). Evidence: pzserver ships `deploy.sh` + `deploy.ps1` and `Makefile` + `make.ps1`; ownly's lockfile bug came from Windows; shroud briefs hardcode `/Users/<name>/…` paths.
-
 **Customize:** `{{PLATFORMS}}` (e.g. Windows 11 + PowerShell 5.1/7, macOS + zsh/bash, Linux CI).
 
 ## Entry points

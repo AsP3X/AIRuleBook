@@ -2,13 +2,13 @@
 # Human: Block accidental commits of a read-only submodule's files; allow submodule pointer bumps only.
 # Agent: RUNS on every commit when core.hooksPath=.githooks; FAILS on <SUBMODULE>/* paths except the gitlink itself.
 #
-# Generalized from ownly/.githooks/pre-commit (rules/architecture/vendored-submodule-readonly.md).
+# Enforces rules/architecture/vendored-submodule-readonly.md.
 # Install: copy to <repo>/.githooks/pre-commit, set SUBMODULE (and UPSTREAM) below,
 #          chmod +x, then: git config core.hooksPath .githooks
 
 set -e
 
-SUBMODULE="${SUBMODULE:-vendor-module}"            # e.g. nebular-os
+SUBMODULE="${SUBMODULE:-vendor-module}"            # e.g. vendor/storage-service
 UPSTREAM="${UPSTREAM:-the upstream repository}"    # e.g. https://github.com/<owner>/<repo>
 
 # Human: Staging <SUBMODULE>/src/... must never land in this repo's history.

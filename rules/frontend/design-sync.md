@@ -9,16 +9,14 @@ alwaysApply: true
 
 **Out of scope:** the design language itself (`design-system`), web accessibility (`web-accessibility.md`).
 
-**Origin:** `shroud` (`docs/agent-rules/design-sync.md`); `shroud` `project-layout.mdc` (screens map 1:1).
-
 **Customize:** the code → design file table; the design tool and how agents may access it.
 
 Every UI change — a new screen or component, a change to an existing one, or a removal — also lands in the matching design file **in the same piece of work**:
 
 | Code | Design file |
 | ---- | ----------- |
-| {{CLIENT_DIR_1}} (e.g. `ios/`) | {{DESIGN_FILE_1}} (e.g. `design/iOS-App.pen`) |
-| {{CLIENT_DIR_2}} (e.g. `web/`) | {{DESIGN_FILE_2}} (e.g. `design/webclient.pen`) |
+| {{CLIENT_DIR_1}} (e.g. `ios/`) | {{DESIGN_FILE_1}} (e.g. `design/mobile-app.pen`) |
+| {{CLIENT_DIR_2}} (e.g. `web/`) | {{DESIGN_FILE_2}} (e.g. `design/web-app.pen`) |
 
 - A change that touches several clients updates every matching file.
 - Removed UI is removed from the design too, not left behind as a stale frame.

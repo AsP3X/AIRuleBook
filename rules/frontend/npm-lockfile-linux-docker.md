@@ -10,8 +10,6 @@ alwaysApply: false
 
 **Out of scope:** whether to add or upgrade a package at all (`dependency-safety.md`).
 
-**Origin:** `ownly` (`frontend-npm-lockfile-docker.mdc`).
-
 **Customize:** `{{FRONTEND_DIR}}` (e.g. `frontend`), `{{NODE_IMAGE}}` (e.g. `node:22-alpine`, matching your Dockerfile).
 
 A lockfile produced on Windows/macOS can omit Linux-only optional dependencies (native/WASM bindings used by Rolldown, Tailwind, esbuild, SWC …) and break the image build:

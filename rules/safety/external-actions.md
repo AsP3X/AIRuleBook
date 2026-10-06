@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** local destructive actions (`data-safety.md`), `git push` / merge / force-push (`git-commits.md`), local Docker (`docker-compose-safety.md`).
 
-**Origin:** new (2026-10-05); complements `data-safety.md` and pzserver's "never cut a Workshop release without asking".
-
 **Customize:** list your project's environments and deploy commands in the table at the end.
 
 ## Requires explicit approval for that specific action

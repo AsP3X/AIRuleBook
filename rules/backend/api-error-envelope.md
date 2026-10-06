@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** authentication and authorization (`web-security-baseline.md`), secrets in general (`secrets-handling.md`), audit trails (`audit-log-coverage.md`).
 
-**Origin:** `ownly`, `shroud` (nested envelope), `nebular-os` (flat envelope) — merged.
-
 **Customize:** choose **one** envelope variant, fill `{{ERROR_TYPE}}`, `{{ERROR_TYPE_PATH}}` and the client list, and delete the other variant.
 
 ## Canonical error JSON

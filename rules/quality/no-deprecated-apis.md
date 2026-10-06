@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** upgrading packages to get new APIs (`dependency-safety.md`).
 
-**Origin:** `shroud` (`docs/agent-rules/no-deprecated-apis.md`).
-
 Do not call, extend or suppress a deprecated API, type, method, library or language feature. Search the change for deprecation markers and warnings (`@Deprecated`, `#[deprecated]`, `@available(*, deprecated)`, compiler/linter deprecation output) and for suppressions (`@Suppress("DEPRECATION")`, `OVERRIDE_DEPRECATION`, `#[allow(deprecated)]`, `// eslint-disable … deprecation`).
 
 - Replace each use with the current supported API.

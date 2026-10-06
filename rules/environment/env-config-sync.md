@@ -9,9 +9,7 @@ alwaysApply: true
 
 **Out of scope:** secret values (`secrets-handling.md`), which store is authoritative at runtime (`single-source-of-truth.md`), creating new compose files (`docker-compose-safety.md`).
 
-**Origin:** new (2026-10-05); pattern seen in ownly (`.env.example`, `init-env.sh`, compose defaults), nebular-os (`NOS_*`, ≥ 32-char secrets) and pzserver (`.env.example`, `.env.production.example`).
-
-**Customize:** `{{CONFIG_MODULE}}` (e.g. `src/config.rs`, `backend/src/config.ts`), `{{ENV_FILES}}`, `{{PREFIX}}` (e.g. `NOS_`, `OWNLY_`).
+**Customize:** `{{CONFIG_MODULE}}` (e.g. `src/config.rs`, `backend/src/config.ts`), `{{ENV_FILES}}`, `{{PREFIX}}` (e.g. `APP_`, `MYAPP_`).
 
 ## Update everything in the same change set
 

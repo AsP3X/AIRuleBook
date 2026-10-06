@@ -10,8 +10,6 @@ alwaysApply: false
 
 **Out of scope:** React components and hooks (`react-quality.md`), UI strings (`i18n-no-hardcoded-strings.md`), packages (`dependency-safety.md`), API error envelope (`api-error-envelope.md`).
 
-**Origin:** new (2026-10-05) for the TypeScript code in ownly `frontend/`, pzserver `web/ui` and shroud `web/`.
-
 ## Compiler and lint
 
 - `tsconfig` keeps `"strict": true`. Do not turn off strict flags, and do not add `skipLibCheck`-style escapes to silence real errors. Recommended extras: `noUncheckedIndexedAccess`, `noImplicitOverride`, `exactOptionalPropertyTypes` (when the project already uses them).

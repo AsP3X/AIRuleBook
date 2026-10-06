@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** inline code comments (`inline-documentation.md`); env var docs details (`env-config-sync.md`); commit prefix for docs-only commits (`git-commits.md` → `DOCS:`).
 
-**Origin:** new (2026-10-05).
-
 Docs that disagree with the code are worse than no docs: agents and people follow them. **A change that makes a doc wrong updates that doc in the same change set.**
 
 ## Update triggers

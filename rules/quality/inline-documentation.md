@@ -6,11 +6,9 @@ alwaysApply: true
 
 # Inline documentation (required)
 
-**Applies to:** new or modified source code. Narrow the `globs` to your stack (the originals used `*.rs`, `*.{rs,ts,tsx}` and `*.{rs,swift}`). Not for configs, lockfiles, CI or env samples unless the user asks.
+**Applies to:** new or modified source code. Narrow the `globs` to your stack (e.g. `**/*.rs`, `**/*.{rs,ts,tsx}` or `**/*.{rs,swift}`). Not for configs, lockfiles, CI or env samples unless the user asks.
 
 **Out of scope:** README, API docs, ADRs and changelogs (`docs-upkeep.md`).
-
-**Origin:** `nebular-os`, `ownly`, `shroud` (`inline-documentation.mdc`) — merged.
 
 **All new or modified code must include clean, human-readable inline comments.** Where behavior is non-trivial, each such comment also gets an **`Agent:` line** so agents can parse intent quickly — unless that line would be redundant. Undocumented logic is not shippable.
 

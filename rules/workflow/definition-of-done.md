@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** how checks must be run honestly (`test-integrity.md`), what to test (`regression-testing.md`).
 
-**Origin:** `shroud` (`definition-of-done.mdc`), generalized.
-
 **Customize:** keep only the checklist rows your project has; replace the commands; link the rules you installed.
 
 Do not claim work is complete, fixed or passing until **every applicable item below is satisfied with evidence**. State the evidence (commands run + outcomes). If something is blocked, say so with the exact command the user must run. **Evidence before assertions — always.**

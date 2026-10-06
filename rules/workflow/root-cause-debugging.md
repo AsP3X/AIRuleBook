@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** the guarding test's rules (`test-integrity.md`, `regression-testing.md`); destructive "reset" fixes (`data-safety.md`).
 
-**Origin:** new (2026-10-05).
-
 Do not change code to make an error go away until you can explain **why** it happens.
 
 ## 1. Reproduce

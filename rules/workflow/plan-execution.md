@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** what counts as evidence (`definition-of-done.md`), not widening a plan (`scope-discipline.md`), multi-session plans (`session-handoff.md`).
 
-**Origin:** `nebular-os`, `ownly` (`plan-execution.mdc`) — merged.
-
 **Customize:** list your project's check commands in the Verification section.
 
 Treat the plan as a **binding checklist**, not a loose outline.

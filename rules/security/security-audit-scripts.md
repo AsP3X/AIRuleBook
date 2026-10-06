@@ -10,8 +10,6 @@ alwaysApply: false
 
 **Out of scope:** general Python rules (`python-quality.md`), the security requirements being probed (`web-security-baseline.md`).
 
-**Origin:** `ownly` (`security-audit-scripts.mdc`).
-
 **Customize:** `{{AUDIT_DIR}}`, `{{FINDINGS_DOC}}` (e.g. `security-audit.md`), ID prefix (`SEC-001`).
 
 ## Scope

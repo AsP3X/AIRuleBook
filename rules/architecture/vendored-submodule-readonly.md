@@ -9,9 +9,7 @@ alwaysApply: true
 
 **Out of scope:** third-party packages from registries (`dependency-safety.md`).
 
-**Origin:** `ownly` (`nebular-os-vendor.mdc` + `.githooks/pre-commit`).
-
-**Customize:** `{{SUBMODULE_DIR}}` (e.g. `nebular-os`), `{{UPSTREAM_URL}}`.
+**Customize:** `{{SUBMODULE_DIR}}` (e.g. `vendor/storage-service`), `{{UPSTREAM_URL}}`.
 
 `{{SUBMODULE_DIR}}/` is a git submodule pointing at {{UPSTREAM_URL}}. This repo records only the **pinned commit**; all source changes to it belong upstream.
 

@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** keeping design files in sync (`design-sync.md`), web accessibility rules (`web-accessibility.md`).
 
-**Origin:** structure from `shroud` (`design-system.mdc`). The full worked example — an iOS 26 Liquid Glass messenger — is in `originals/shroud/.cursor/rules/design-system.mdc`; copy from it when the project is similar.
-
 **How to use:** fill every section from the real design file. Delete the HTML comments. Everything here is binding for both design edits and code, so the app looks like one product rather than a collection of screens.
 
 `{{DESIGN_FILE}}` is the design source of truth (see `design-sync.md`). New screens are designed there **before** implementation.

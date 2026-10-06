@@ -9,8 +9,6 @@ alwaysApply: false
 
 **Out of scope:** plan structure (`plan-execution.md`); committing work in progress (`git-commits.md` — autonomous briefs may allow "commit early and often"); multi-agent briefs (`templates/agent-brief.template.md`).
 
-**Origin:** new (2026-10-05); formalizes the `PROGRESS.md` / `HANDOVER-*.md` / `resume-*.md` files used in `shroud/.claude/android-ui/`.
-
 **Customize:** `{{HANDOFF_DIR}}` (e.g. `.agent-notes/` or `docs/handoff/`), and whether it is committed or git-ignored.
 
 A session can end at any moment. Anything that lives only in the conversation is lost.

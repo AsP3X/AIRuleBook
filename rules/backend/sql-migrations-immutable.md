@@ -10,8 +10,6 @@ alwaysApply: true
 
 **Out of scope:** query performance and indexes (`backend-performance.md`), destructive DB actions (`data-safety.md`).
 
-**Origin:** `ownly`, `shroud` (`api-sqlx-migrations.mdc`) — merged.
-
 The app runs migrations at startup. Editing an applied migration causes a checksum mismatch (sqlx: `migration N was previously applied but has been modified`) and the service exits before serving traffic.
 
 ## Rule

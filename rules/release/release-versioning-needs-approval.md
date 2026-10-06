@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** publishing the release itself (`external-actions.md`), changelog content (`docs-upkeep.md`).
 
-**Origin:** `pzserver` (Knox Relay versioning + "Always ask before a Workshop release"), generalized.
-
 **Customize:** list the version strings and the packaging/consistency check.
 
 ## Version numbers are release numbers only
@@ -22,7 +20,7 @@ alwaysApply: true
 
 All of these must always match each other (and the live version after deploy):
 
-- {{VERSION_LOCATION_1}} (e.g. `modversion=` in `mod.info`)
+- {{VERSION_LOCATION_1}} (e.g. `version` in `package.json` or the plugin manifest)
 - {{VERSION_LOCATION_2}} (e.g. `VERSION` constant in the main source file)
 
 A consistency check (`{{CHECK_CMD}}`, e.g. the packager or a manifest test) refuses mismatches. **That check is not a deploy**, and running the packager is not a substitute for asking.

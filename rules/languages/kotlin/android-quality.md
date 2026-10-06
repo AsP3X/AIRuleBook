@@ -10,8 +10,6 @@ alwaysApply: false
 
 **Out of scope:** Kotlin language rules (`kotlin-quality.md`), visual design (`design-system`, `design-sync.md`), E2E crypto (`security-e2e-crypto.md`), deprecated APIs (`no-deprecated-apis.md` — includes API-level-gated deprecations).
 
-**Origin:** new (2026-10-05); generalized from `shroud/.claude/android-ui/BRIEF.md` (R1–R4 contract rules, build gate, emulator rules).
-
 **Customize:** the platform constraints table; `{{BUILD_GATE}}`.
 
 ## Architecture

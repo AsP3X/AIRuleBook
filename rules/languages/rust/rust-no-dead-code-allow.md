@@ -10,8 +10,6 @@ alwaysApply: true
 
 **Out of scope:** other lint and quality rules (`rust-quality.md`).
 
-**Origin:** `nebular-os`, `ownly` (`rust/no-allow-dead-code.mdc`), `pzserver` (`AGENTS.md`) — merged; the enforcement section comes from `pzserver`.
-
 `#[allow(dead_code)]` — on items, fields, modules, or via `cfg_attr(..., allow(dead_code))` — is **forbidden**.
 
 If rustc reports dead code:

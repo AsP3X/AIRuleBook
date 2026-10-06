@@ -9,8 +9,6 @@ alwaysApply: true
 
 **Out of scope:** conventions for code inside those folders (`codebase-conventions.md`).
 
-**Origin:** `nebular-os`, `shroud` (`project-layout.mdc`). Worked examples: `originals/nebular-os/.cursor/rules/project-layout.mdc` (single Rust crate), `originals/shroud/.cursor/rules/project-layout.mdc` (server + native app).
-
 {{ONE_SENTENCE_WHAT_THE_PROJECT_IS}} (e.g. "a standalone, self-hosted object storage service (Rust/Axum) with an S3-like HTTP API, JWT auth, flat-file blobs and SQLite metadata").
 
 ## Directories
