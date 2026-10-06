@@ -1,0 +1,5 @@
+The project rules live in AGENTS.md and docs/agent-rules/. Don't add rules to this file; it only
+loads them for Claude Code.
+
+@AGENTS.md
+@docs/agent-rules/git-commits.md
